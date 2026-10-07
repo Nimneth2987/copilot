@@ -1,0 +1,1 @@
+decision_id,stage,timestamp,question_or_issue,source_prompt,agent_proposal,human_decision_exact_words,fixed_or_open_rule,reason,reviewed_file_and_hash,review_status,operator

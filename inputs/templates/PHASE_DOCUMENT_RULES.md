@@ -1,0 +1,2 @@
+# Rules for phase documents
+Keep the common headings. Add detail where needed. Fill facts from this run; do not copy previous-run results or leave sample values disguised as observations. Use Draft, Revised, Approved by operator, or Blocked. Only the operator records approvals in DECISIONS.csv. For each fact link the prompt/response, command log, file version or human observation supporting it. Archive previous document versions before changes. Summaries belong here; complete visible responses belong in responses/.

@@ -1,0 +1,10 @@
+# Follow-ups and reviews
+The first substantive prompt of each stage is the corresponding unchanged file in prompts/. Attach the stated inputs before sending it. File attachments and RUN_CONTEXT.md supply member-specific context; do not prepend a different development instruction. Save the exact sent text before submission and log attachment versions. Later prompts can differ and must be saved verbatim, including short approvals, clarifications and failed attempts.
+
+Use S1-P001 for RE initial prompt, S1-P002 for its next message, etc.; S2-P001 starts design. Save each visible reply as matching S1-R001.md. Split large responses into S1-R001-part01.md and part02 without silently omitting content. Complete means visible answer, code blocks and tool/action output available to the operator, not hidden reasoning. A chat export can be retained in addition. Do not ask the agent to reconstruct missing conversation verbatim.
+
+Independent RE is allowed. Answer open questions honestly and log answers. A question already answered in B01-B16 gets a pointer to that rule. Do not change mandatory rules to suit a platform. If a true conflict blocks progress, record it and ask Shenal; a necessary baseline change must be versioned and communicated to everyone. Platform-specific choices and GUI proposals go in the decisions/future-increments record.
+
+For a corrective follow-up state the observed issue, expected rule, affected evidence and requested revision. Example wording is a scaffold, not a required identical prompt: “In [file/output], I observed [actual]. Bxx requires [expected]. Explain the cause and correct it within this phase. Preserve the earlier result and record the change.” Replace placeholders and save what was actually sent.
+
+At each gate the operator records approval, revision requested or blocked in DECISIONS.csv with the reviewed version/hash and evidence. The next initial phase prompt may carry that approval through the decision file; do not send unlogged “continue” messages. If a stage requires multiple attempts, preserve them all. Generated summaries are never a substitute for primary evidence.

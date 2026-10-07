@@ -1,0 +1,1 @@
+command_id,stage,timestamp_start,timestamp_end,actor_agent_or_human,working_directory,exact_command,stdout_stderr_path,exit_code,environment,purpose,result,code_commit_or_snapshot
